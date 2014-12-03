@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sample post",
+    "slug": "sample-post",
+    "file": "sample-post.md",
+    "created": "2013-09-27",
+    "avatar": "http://lorempixel.com/48/48",
+    "author": "Ambe",
+    "tags": [
+      {"title" : "Javascript"},
+      {"title": "AngularJS"}
+    ]
+  }
+]
