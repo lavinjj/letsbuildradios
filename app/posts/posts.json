@@ -1,14 +1,27 @@
 [
   {
-    "title": "Sample post",
-    "slug": "sample-post",
-    "file": "sample-post.md",
-    "created": "2013-09-27",
-    "avatar": "http://lorempixel.com/48/48",
-    "author": "Ambe",
+    "title": "Welcome to Let's Build Radios",
+    "slug": "welcome",
+    "file": "welcome.md",
+    "created": "2014-12-07",
+    "avatar": "./images/avatar-analog.png",
+    "author": "Jim Lavin",
     "tags": [
-      {"title" : "Javascript"},
-      {"title": "AngularJS"}
+      {"title" : "Amateur Radio"},
+      {"title": "Homebrew"}
+    ]
+  },
+  {
+    "title": "The Michigan Mighty Mite",
+    "slug": "michigan-mighty-mite-20141208",
+    "file": "michigan-mighty-mite-20141208.md",
+    "created": "2014-12-08",
+    "avatar": "./images/avatar-analog.png",
+    "author": "Jim Lavin",
+    "tags": [
+      {"title" : "Amateur Radio"},
+      {"title": "Homebrew"}
     ]
   }
+
 ]
