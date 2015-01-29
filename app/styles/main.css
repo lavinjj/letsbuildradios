@@ -17,7 +17,7 @@ a:focus {
 
 /* LAYOUT CSS */
 #layout {
-  padding-left: 25%; /* "left col (nav + list)" width */
+  padding-left: 10%; /* "left col (nav + list)" width */
   position: relative;
 }
 
@@ -25,8 +25,8 @@ a:focus {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 25%;
-  margin-left: -25%;
+  width: 190px;
+  margin-left: -10%;
   background: #E74C3C;
   background-image: url("../images/side-bar.png");
   background-repeat: repeat-y;
@@ -34,7 +34,6 @@ a:focus {
 }
 
 .header {
-  margin: 50% 2em 0;
   text-align: right;
 }
 
