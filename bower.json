@@ -1,0 +1,27 @@
+{
+  "name": "LaraWeb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lavinjj/letsbuildradios",
+  "authors": [
+    "Jim Lavin <jlavin@jimlavin.net>"
+  ],
+  "description": "Let's Build Radios Web Site",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "angular-route": "~1.3.15",
+    "angular-sanitize": "~1.3.15"
+  }
+}
