@@ -1,14 +1,12 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 
-import {Component, View, For} from 'angular2/angular2';
-import {Project, ProjectManager} from 'models/projects/projects';
+import {Component, NgFor} from 'angular2/angular2';
+import {Project, ProjectManager} from '../../models/projects/projects';
 
 @Component({
-  selector: 'project-list'
-})
-@View({
-  templateUrl: 'components/project-list/project-list.html',
-  directives:[For]
+  selector: 'project-list',
+  templateUrl: './components/project-list/project-list.html',
+  directives: [NgFor]
 })
 export class ProjectList {
   currentProjects:Project[];
