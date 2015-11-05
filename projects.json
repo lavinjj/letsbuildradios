@@ -1,0 +1,20 @@
+[
+  {
+    "title":"The Let's Build Something Radio",
+    "url":"posts/LBS/intro.md",
+    "description":"Step-by-step guide to building the Let's Build Something SSB Transceiver",
+    "image":"img/icons/lbs.png"
+  },
+  {
+    "title":"The Minima SSB Transceiver",
+    "url":"posts/Minima/intro.md",
+    "description":"Step-by-step guide to building the Minima SSB Transceiver",
+    "image":"img/icons/minima.png"
+  },
+  {
+    "title":"The Sproutie Regen Receiver",
+    "url":"posts/Sproutie/intro.md",
+    "description":"Step-by-step guide to building the Sproutie Regen Receiver",
+    "image":"img/icons/sproutie.png"
+  }
+]

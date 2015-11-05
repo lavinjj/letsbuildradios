@@ -2,7 +2,7 @@
   "name": "letsbuildradios",
   "version": "0.0.1",
   "dependencies": {
-    "angular2": "2.0.0-alpha.44",
+    "angular2": "2.0.0-alpha.45",
     "es6-module-loader": "^0.16",
     "systemjs": "^0.16",
     "traceur": "0.0.91"
@@ -23,6 +23,7 @@
     "mocha": "^2.3.3",
     "phantomjs": "^1.9.18",
     "run-sequence": "^1.1.4",
-    "sinon": "^1.17.1"
+    "sinon": "^1.17.1",
+    "tslint": "^2.5.1"
   }
 }

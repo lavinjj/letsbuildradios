@@ -1,12 +1,10 @@
-/// <reference path="typings/angular2/angular2.d.ts" />
+/// <reference path="typings/tsd.d.ts" />
 
-import {Component, View, bootstrap} from 'angular2/angular2';
+import {Component, bootstrap} from 'angular2/angular2';
 import {ProjectList} from './components/project-list/project-list';
 
 @Component({
-  selector: 'app'
-})
-@View({
+  selector: 'app',
   template: '<project-list>Loading...</project-list>',
   directives: [ProjectList]
 })

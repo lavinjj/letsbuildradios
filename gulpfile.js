@@ -29,14 +29,12 @@ gulp.task('lint', function() {
 
 gulp.task('tsc', function() {
   return gulp.src(['./app.ts','./components/**/**.ts', './models/**/**.ts'])
-  .pipe(ts(tsProject))
-  .js.pipe(gulp.dest('./temp/src/js'));
+  .pipe(ts(tsProject));
 });
 
 gulp.task('tsc-tests', function() {
   return gulp.src('./test/**/**.test.ts')
-  .pipe(ts(tsTestProject ))
-  .js.pipe(gulp.dest('./temp/test/'));
+  .pipe(ts(tsTestProject ));
 });
 
 gulp.task('karma', function(cb) {
